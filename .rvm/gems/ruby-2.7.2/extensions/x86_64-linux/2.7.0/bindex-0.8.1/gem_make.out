@@ -1,0 +1,15 @@
+current directory: /home/ivar/.rvm/gems/ruby-2.7.2/gems/bindex-0.8.1/ext/skiptrace
+/home/ivar/.rvm/rubies/ruby-2.7.2/bin/ruby -I /home/ivar/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0 -r ./siteconf20201217-15040-138v0p1.rb extconf.rb
+creating Makefile
+
+current directory: /home/ivar/.rvm/gems/ruby-2.7.2/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /home/ivar/.rvm/gems/ruby-2.7.2/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: /home/ivar/.rvm/gems/ruby-2.7.2/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -m 0755 cruby.so ./.gem.20201217-15040-c32n2j/skiptrace/internal

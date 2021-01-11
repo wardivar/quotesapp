@@ -1,0 +1,15 @@
+current directory: /home/ivar/.rvm/gems/ruby-2.7.2/gems/websocket-driver-0.7.3/ext/websocket-driver
+/home/ivar/.rvm/rubies/ruby-2.7.2/bin/ruby -I /home/ivar/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0 -r ./siteconf20201216-2402-1az0mem.rb extconf.rb
+creating Makefile
+
+current directory: /home/ivar/.rvm/gems/ruby-2.7.2/gems/websocket-driver-0.7.3/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /home/ivar/.rvm/gems/ruby-2.7.2/gems/websocket-driver-0.7.3/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: /home/ivar/.rvm/gems/ruby-2.7.2/gems/websocket-driver-0.7.3/ext/websocket-driver
+make "DESTDIR=" install
+/usr/bin/install -m 0755 websocket_mask.so ./.gem.20201216-2402-9hdke2
